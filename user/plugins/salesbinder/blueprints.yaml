@@ -1,0 +1,46 @@
+name: SalesBinder
+version: 1.0.0
+description: "Integrate SalesBinder API with Grav CMS"
+icon: plug
+author:
+  name: FlexoZA
+  email: christiaan@schoeman.me
+homepage: https://github.com/FlexoZA/salesbinder
+keywords: grav, plugin, salesbinder
+bugs: https://github.com/FlexoZA/salesbinder/issues
+license: MIT
+
+autoload:
+  classmap:
+    - "classes/"
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    api_key:
+      type: text
+      label: API Key
+      help: Enter your SalesBinder API Key
+      validate:
+        required: true
+    subdomain:
+      type: text
+      label: Subdomain
+      help: Enter your SalesBinder subdomain
+      validate:
+        required: true
+    api_version:
+      type: text
+      label: API Version
+      help: Enter the API version
+      default: '2.0'

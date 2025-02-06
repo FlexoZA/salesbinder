@@ -1,0 +1,14 @@
+{% set items = salesbinder_items() %}
+
+{% if items %}
+    <div class="salesbinder-items">
+        {% for item in items %}
+            <div class="item">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <p>No items found.</p>
+{% endif %} 

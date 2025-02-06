@@ -1,0 +1,13 @@
+{
+    "name": "flexoza/salesbinder",
+    "type": "grav-plugin",
+    "autoload": {
+        "psr-4": {
+            "Grav\\Plugin\\SalesBinder\\": "classes/"
+        }
+    },
+    "require": {
+        "php": ">=7.3.6",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
