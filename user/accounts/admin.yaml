@@ -1,0 +1,11 @@
+state: enabled
+email: christiaan@schoeman.me
+fullname: 'Christiaan Schoeman'
+title: dev
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$rqNFRowez2leoVMqeyMcN.WplfRnfO.eIHvTb2iofV3BUOZiINSfC

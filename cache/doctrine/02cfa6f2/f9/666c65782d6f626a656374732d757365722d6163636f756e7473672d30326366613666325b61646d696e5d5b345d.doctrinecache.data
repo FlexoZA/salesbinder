@@ -1,0 +1,2 @@
+1738827770
+O:39:"Grav\Common\Flex\Types\Users\UserObject":4:{s:4:"type";s:13:"user-accounts";s:3:"key";s:5:"admin";s:8:"elements";a:7:{s:5:"state";s:7:"enabled";s:5:"email";s:22:"christiaan@schoeman.me";s:8:"fullname";s:19:"Christiaan Schoeman";s:5:"title";s:3:"dev";s:6:"access";a:2:{s:5:"admin";a:2:{s:5:"login";b:1;s:5:"super";b:1;}s:4:"site";a:1:{s:5:"login";b:1;}}s:15:"hashed_password";s:60:"$2y$10$rqNFRowez2leoVMqeyMcN.WplfRnfO.eIHvTb2iofV3BUOZiINSfC";s:8:"username";s:5:"admin";}s:7:"storage";a:2:{s:11:"storage_key";s:5:"admin";s:17:"storage_timestamp";i:1738827170;}}
